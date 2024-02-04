@@ -4,7 +4,7 @@ import React from 'react'
 import { useInteractionContex } from '../context/InteractionContex'
 // Header
   // Logo
-  import Logo from "../assets/images/logo.png"
+  import Logo from "../assets/images/Logo.png"
   // Nombre del proyecto
   // Menú
 // Estilos
@@ -18,7 +18,7 @@ const Header = () => {
     <div  className={`Header ${colorSelected}`}>
       <div  className='headerContainer'>
         <img src={Logo} alt="Logo"  className='headercontainerLogo'/>
-        <h1 className='headercontainerName'>Proyecto para aprender React</h1>
+        <h1 className='headercontainerName'>Desarrollo Web</h1>
       </div>
       <div  className='headerMenu'>
         <Menu />

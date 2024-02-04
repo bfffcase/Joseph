@@ -1,8 +1,8 @@
 //rafce
 import React from 'react'
 // Importar una imágen
-import Gatico from "../assets/images/descarga1.jpg"
-import Gatico2 from "../assets/images/gatico2.jpg"
+import Gatico from "../assets/images/herramientas.png"
+import Gatico2 from "../assets/images/uml.png"
 
 const Prueba = () => {
   return (

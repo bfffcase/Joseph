@@ -2,8 +2,8 @@
 // Ejemplo
 import React from 'react'
 // Importar una imágen
-import Burrito from "../assets/images/mariposa.png"
-import Burrito2 from "../assets/images/tio.jpeg"
+import Burrito from "../assets/images/Node.png"
+import Burrito2 from "../assets/images/python.png"
 const Information = () => {
   return (
     <div className='Information'>

@@ -4,8 +4,8 @@ import React from 'react'
 // Importar estilos
 import "../styles/Home.sass"
 // Importar una imágen
-import Arbolito from "../assets/images/images1.jfif"
-import Matica from "../assets/images/descarga1.jpg"
+import Arbolito from "../assets/images/Tecnologia.png"
+import Matica from "../assets/images/Java.png"
 // Se importa la variable global par administrar el color
 import { useInteractionContex } from "../context/InteractionContex";
 const Home = () => {
