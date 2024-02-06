@@ -26,7 +26,7 @@ const Menu = () => {
     return (
         <div  className={`Menu ${colorSelected}`} >
             <ul className='menuList'>
-                <li className='menulistItem' onClick={handleMenu}><a href="/" className='menulistitemLink'>Home</a></li>
+                <li className='menulistItem' onClick={handleMenu}><a href="/" className='menulistitemLink'>Principal</a></li>
                 <li className='menulistItem' onClick={handleMenu}><a href="/information" className='menulistitemLink'>Information</a></li>
                 <li className='menulistItem' onClick={handleMenu}><a href="/prueba" className='menulistitemLink'>Prueba</a></li>
                 <li className='menulistItem' onClick={handleMenu}>

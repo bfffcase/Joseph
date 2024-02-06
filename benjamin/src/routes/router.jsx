@@ -4,7 +4,7 @@ import React from "react";
 // Crear el enrutador(Los links del Ménu)
 import { createBrowserRouter } from "react-router-dom";
 // Páginas
-import Home from '../pages/Home';
+import Principal from '../pages/Principal';
 import NotFound from '../pages/NotFound';
 import Information from '../pages/Information';
 import Prueba from '../pages/Prueba';
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
                     {
                         // Esto va para la página Home
                         path: "/",
-                        element: <Home/>
+                        element: <Principal/>
                     },
                     {
                         // Esto va para la página information
