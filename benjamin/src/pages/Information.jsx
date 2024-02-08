@@ -2,8 +2,8 @@
 // Ejemplo
 import React from 'react'
 // Importar una imágen
-import Burrito from "../assets/images/Node.png"
-import Burrito2 from "../assets/images/python.png"
+import node from "../assets/images/Node.png"
+import python from "../assets/images/python.png"
 const Information = () => {
   return (
     <div className='Information'>
@@ -12,7 +12,7 @@ const Information = () => {
     <div className='informationCard'>
     <h3>Esto es un ejemplo de un subtítulo</h3>
       <div  className='informationcardData'>
-      <img className='informationcarddataImg' src={Burrito} alt='Esto es un arbolito'></img>
+      <img className='informationcarddataImg' src={node} alt='Esto es un arbolito'></img>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt sint eius. Optio aperiam blanditiis maiores ex reprehenderit iste, omnis ratione delectus mollitia consectetur. Doloribus veritatis consequuntur et voluptas qui!</p>
       </div>
     </div>
@@ -21,7 +21,7 @@ const Information = () => {
     <div className='informationCard'>
     <h3>Esto es un ejemplo de un subtítulo</h3>
       <div  className='informationcardData'>
-      <img className='informationcarddataImg' src={Burrito2} alt='Esto es un arbolito'></img>
+      <img className='informationcarddataImg' src={python} alt='Esto es un arbolito'></img>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt sint eius. Optio aperiam blanditiis maiores ex reprehenderit iste, omnis ratione delectus mollitia consectetur. Doloribus veritatis consequuntur et voluptas qui!</p>
       </div>
     </div>
