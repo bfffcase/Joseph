@@ -1,28 +1,35 @@
 .Header
     position: fixed
-    top: 0
+    top: 10
     left: 0
     width: 100%
     display: grid
-    grid-template-rows: 1fr 1fr
-    height: 90px
+    grid-template-rows: 1fr 1fr 1fr 1 
+    height: 100px
     .headerContainer
         display: grid
-        grid-template-columns: 1fr 3fr
+        grid-template-columns: 1fr  1fr 3fr
         align-items: center
         align-content: center
         justify-content: center
         justify-items: center
-        width: 30%
-        height: 100px
-        margin-top: 0
+        width: 50%
+        height: 40px
+        margin-top:0
         margin-bottom: 10px
         .headercontainerLogo
-            height: 70px
+            height: 90px
+            transform: translateY(30px)
         .headercontainerName
-          height: 50px
-          font-size: 50px
+          width: 80px
+          height: 15px
+          font-size: 30px
           color: #ffffff
+          &:hover
+            color: yellow
           
-    .headerMenu
-        display: grid
+              
+        
+    
+         
+        

@@ -18,20 +18,18 @@ const Menu = () => {
     const { handleColor}= useInteractionContex()
     // Se trae la variable que contiene el nombre del tema del contexto
     const { colorSelected}= useInteractionContex()
-    // Se trae la variable que contiene el nombre del tema del contexto
-    const { imgPageColorSelected}= useInteractionContex()
     const { stateC}= useInteractionContex()
     console.log('Color: '+stateC)
     console.log('colorSelected: '+colorSelected)
     return (
         <div  className={`Menu ${colorSelected}`} >
             <ul className='menuList'>
-                <li className='menulistItem' onClick={handleMenu}><a href="/" className='menulistitemLink'>Principal</a></li>
+                <li className='menulistItem' onClick={handleMenu}><a href="/" className='menulistitemLink'>Registro</a></li>
+                <li className='menulistItem' onClick={handleMenu}><a href="/registro" className='menulistitemLink'>Principal</a></li>
                 <li className='menulistItem' onClick={handleMenu}><a href="/information" className='menulistitemLink'>Information</a></li>
                 <li className='menulistItem' onClick={handleMenu}><a href="/prueba" className='menulistitemLink'>Prueba</a></li>
-                <li className='menulistItem' onClick={handleMenu}>
-                <img className='menulistitemIcon' src={color ? light : dark} onClick={()=>handleColor()}></img>
-            </li>
+                <li className='menulistItem' onClick={handleMenu}><a href="/ayuda" className='menulistitemLink'>Ayuda</a></li>
+                
             </ul>
         </div>
     )

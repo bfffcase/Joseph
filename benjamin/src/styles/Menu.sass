@@ -2,23 +2,27 @@
     display: grid
     width: 100%
     height: 30px
-    justify-items: center
+    justify-items: right
     align-content: center
     .menuList
+        width: 65%
         display: grid
-        grid-template-columns: 1fr 1fr 1fr 1fr 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr
         .menulistItem
             display: grid
             justify-items: center
             align-content: center
+            font-size: 30px
+            margin-left: 30px
             .menulistitemIcon
-                width: 10px
+                height: 30%
+                width: 20px
+                transform: scale(0.8)
             .menulistitemLink
                 display: grid
                 color: #ffffff
                 justify-content: center
                 align-items: center
                 text-decoration: none
-                font-size: 40px
                 &:hover
-                    color: limegreen
+                    color: yellow

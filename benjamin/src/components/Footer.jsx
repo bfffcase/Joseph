@@ -23,7 +23,6 @@ const Footer = () => {
         <li className='footerredItem'>
           <a className='footerreditemLink' href="https://www.youtube.com/" target="_blank">Youtube</a>
         </li>
-        <li><a href="https://www.flaticon.com/free-icons/light-bulb" title="light bulb icons">Light bulb icons created by Freepik - Flaticon</a></li>
       </ul>
     </div>
   )
