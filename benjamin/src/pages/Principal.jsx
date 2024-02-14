@@ -4,7 +4,7 @@ import React from 'react'
 // Importar una imágen
 import node from "../assets/images/circulo.png"
 import python from "../assets/images/taza.png"
-const Information = () => {
+const Principal = () => {
   return (
     <div className='Principal'>
     <hr></hr>
@@ -47,4 +47,4 @@ En resumen, Java es un lenguaje de programación que se utiliza en diversos sect
   )
 }
 
-export default Information
+export default Principal
